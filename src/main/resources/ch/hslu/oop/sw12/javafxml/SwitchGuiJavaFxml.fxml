@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Button fx:id="btnOn" mnemonicParsing="false" text="On" BorderPane.alignment="CENTER" />
+   </top>
+   <bottom>
+      <Button fx:id="btnOff" mnemonicParsing="false" text="Off" BorderPane.alignment="CENTER" />
+   </bottom>
+   <center>
+      <Label fx:id="label" text="The switch is OFF." BorderPane.alignment="CENTER" />
+   </center>
+</BorderPane>

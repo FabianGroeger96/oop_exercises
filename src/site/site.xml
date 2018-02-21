@@ -1,0 +1,34 @@
+<project name="HSLU - appe_stock" xmlns="http://maven.apache.org/SITE/1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://maven.apache.org/SITE/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
+
+   <bannerLeft>
+      <name>HSLU Informatik</name>
+      <src>images/logo-hslu.png</src>
+      <alt>Hochschule Luzern - Informatik</alt>
+      <href>http://www.hslu.ch/informatik/</href>
+   </bannerLeft>
+
+   <bannerRight>
+      <name>${project.name}</name>
+   </bannerRight>
+
+   <publishDate position="right" format="dd.MM.yyyy - HH:mm" />
+   <version position="left" />
+
+   <skin>
+      <groupId>org.apache.maven.skins</groupId>
+      <artifactId>maven-fluido-skin</artifactId>
+      <version>1.6</version>
+   </skin>
+
+   <body>
+      <head />
+      <links />
+      <breadcrumbs />
+      <menu name="Dokumentation">
+         <item name="Beschreibung" href="page.html" />
+      </menu>
+      <menu ref="reports" />
+   </body>
+
+</project>
