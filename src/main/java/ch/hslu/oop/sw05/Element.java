@@ -6,7 +6,12 @@ public abstract class Element {
     private double schmelzpunkt;
     private double siedepunkt;
 
+    public Element(){
+        this.temp = new Temperatur();
+    }
+
     public Element(double temp, double schmelzpunkt, double siedepunkt){
+        this();
         this.temp.setTempCelsius(temp);
         this.schmelzpunkt = schmelzpunkt;
         this.siedepunkt = siedepunkt;
